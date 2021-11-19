@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrmminabs
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute a moving minimum absolute value incrementally.
 
@@ -133,9 +133,9 @@ console.log( accumulator() );
 
 ## See Also
 
--   [`@stdlib/stats/incr/minabs`][@stdlib/stats/incr/minabs]: compute a minimum absolute value incrementally.
--   [`@stdlib/stats/incr/mmaxabs`][@stdlib/stats/incr/mmaxabs]: compute a moving maximum absolute value incrementally.
--   [`@stdlib/stats/incr/mmin`][@stdlib/stats/incr/mmin]: compute a moving minimum incrementally.
+-   <span class="package-name">[`@stdlib/stats/incr/minabs`][@stdlib/stats/incr/minabs]</span><span class="delimiter">: </span><span class="description">compute a minimum absolute value incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mmaxabs`][@stdlib/stats/incr/mmaxabs]</span><span class="delimiter">: </span><span class="description">compute a moving maximum absolute value incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mmin`][@stdlib/stats/incr/mmin]</span><span class="delimiter">: </span><span class="description">compute a moving minimum incrementally.</span>
 
 </section>
 
@@ -186,8 +186,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-mminabs/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-mminabs?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-mminabs.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-mminabs/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
