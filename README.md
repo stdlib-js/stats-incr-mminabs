@@ -24,30 +24,14 @@ limitations under the License.
 
 > Compute a moving minimum absolute value incrementally.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-incr-mminabs
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var incrmminabs = require( '@stdlib/stats-incr-mminabs' );
+import incrmminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mminabs@deno/mod.js';
 ```
 
 #### incrmminabs( window )
@@ -111,8 +95,8 @@ m = accumulator();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var incrmminabs = require( '@stdlib/stats-incr-mminabs' );
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import incrmminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mminabs@deno/mod.js';
 
 var accumulator;
 var v;
@@ -158,7 +142,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -220,11 +204,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs
+[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs/tree/deno
 
-[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs
+[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs/tree/deno
 
-[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin
+[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin/tree/deno
 
 <!-- </related-links> -->
 
